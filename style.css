@@ -1,0 +1,14 @@
+.carousel-inner img {
+    width: 100%;
+    height: 100vh;         /* responsive height */
+    object-fit: cover;    /* crop nicely */
+}
+
+@media (max-width: 768px) {
+    .carousel-inner img {
+        height: 35vh;  
+    }
+}
+body {
+    padding-top: 80px; /* equal to navbar height */
+}
